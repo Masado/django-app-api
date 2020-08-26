@@ -1,0 +1,8 @@
+<h1>{{ annotation.name }}</h1>
+{#<h2>Description: {{ annotation.description }}</h2>#}
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<form action="{% url 'annotation:index' %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="No">
+</form>

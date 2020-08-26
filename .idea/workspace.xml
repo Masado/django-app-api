@@ -23,9 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c65e88b-ce38-46a9-a660-984c10ec3ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/annotation/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/annotation/static/annotation/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/annotation/templates/annotation/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/annotation/templates/annotation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/annotation/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/annotation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/annotation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/annotation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/annotation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/annotation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/annotation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/annotation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/annotation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +56,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,6 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/manage.py" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +99,7 @@
       <workItem from="1598364220031" duration="3003000" />
       <workItem from="1598427520445" duration="8395000" />
       <workItem from="1598437425292" duration="143000" />
-      <workItem from="1598437570686" duration="371000" />
+      <workItem from="1598437570686" duration="16861000" />
     </task>
     <servers />
   </component>
@@ -101,6 +122,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="836" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598452890831">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="836" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598452890831" />
+    <state x="1146" y="358" width="614" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598441154744">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1146" y="358" width="614" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1598441154744" />
     <state x="954" y="322" width="424" height="520" key="FileChooserDialogImpl" timestamp="1598437618399">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -109,9 +138,13 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="512" y="80" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598437620145" />
-    <state x="1239" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598428093879">
+    <state x="1239" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598453154958">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="1239" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598428093879" />
+    <state x="1239" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598453154958" />
+    <state x="1121" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1598450549941">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1121" y="263" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598450549941" />
   </component>
 </project>

@@ -1,0 +1,13 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'annotation/style.css' %}">
+
+{% if latest_annotation_list %}
+    <ul>
+        {% for annotation in latest_annotation_list %}
+            <li><a href="{% url 'annotation:detail' annotation.id %}">{{ annotation.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No annotation files are available.</p>
+{% endif %}
